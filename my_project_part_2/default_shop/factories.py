@@ -14,3 +14,6 @@ class StoreFactory(factory.django.DjangoModelFactory):
 
     store_info = DEFAULT_STORE_INFO
     # TODO допишите ваш код здесь
+    store_id = DEFAULT_STORE_SAP
+    lat = DEFAULT_STORE_LAT
+    lng = DEFAULT_STORE_LNG
